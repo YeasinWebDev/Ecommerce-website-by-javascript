@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="../js/data.js"></script>
+    <script src="../js/cart.js" defer></script>
+</head>
+<body>
+    <header class="primaryHeader">
+        <nav>
+            <div><img class="logo" src="../products.img/Logo(1).png" alt=""></div>
+            <div class="aboutSec">
+                <ul>
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="about.html"> About </a></li>
+                    <li><a href="contact.html"> Contact </a></li>
+                    <li><a href="cart.html"><i class="cartIcon fa-solid fa-bag-shopping"></i><sup class="CartNumber">0</sup> </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="empty">
+        <div>Your Cart is Empty</div>
+        <button><a href="index.html">Back to Home</a></button>
+    </div>
+    <main>
+        <div class="totalPriceSection">
+            <div class="text">Cart Totals</div>
+            <div class="priceSec">
+                <div class="priceSecText">Total-Price</div>
+                <div class="totalprice"></div>
+            </div>
+            <div class="QuentitySec">
+                <div class="QuentitySecText">Quentity</div>
+                <div class="qty">5</div>
+            </div>
+        </div>
+
+        <div class="totalSec"><div class="item"></div></div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="col1">
+                <a href="index.html"><img src="../Logo(1).png" alt=""></a>
+                <div class="footerCon">
+                    <h2>Contact</h2>
+                    <h4><span>Address </span>: 568 bally road</h4>
+                    <h4><span>Phone </span>:+880 1849381332</h4>
+                    <h4><span>Email </span> : ar9485727@gmail.com</h4>
+                </div>
+                <div class="Follow">
+                    <div class="followtext">Follow Us</div>
+                    <div>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col2">
+                <h2>About</h2>
+                <div class="div">
+                    <h3> <a href="about.html">About Us</a></h3>
+                    <h3>Delivery Infomationr</h3>
+                    <h3>Privacy Policy</h3>
+                    <h3>Terms $ Conditions</h3>
+                    <h3>Contact Us</h3>
+                </div>
+            </div>
+            <div class="col3">
+                <h2>My Account</h2>
+                <div>
+                    <h3>Sign In</h3>
+                    <h3><a href="cart.html">View Cart</a></h3>
+                    <h3>My wishlist</h3>
+                    <h3>Track My Order</h3>
+                    <h3>Help</h3>
+                </div>
+            </div>
+            <div class="col4">
+                <h2>Install App</h2>
+                <div>
+                    <h3>From App Storer or Google Play</h3>
+                    <div class="img">
+                        <img src="../products.img/applePay.jpg" alt="">
+                        <img src="../products.img/googlePay.jpg" alt="">
+                        <img src="../products.img/visaPay.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+</body>
+</html>
